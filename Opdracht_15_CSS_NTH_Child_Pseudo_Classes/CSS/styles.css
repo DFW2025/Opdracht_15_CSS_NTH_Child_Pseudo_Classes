@@ -1,0 +1,91 @@
+/*  All Screen */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,
+body {
+	background-color: #231F20;
+	margin: 10px;
+	font-family: "Montserrat", sans-serif;
+	padding: 1em 2em;
+}
+
+
+/*  Header */
+
+.header h1 {
+	color: white;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+/*  Nav */
+
+
+/*  Main */
+
+.main {
+	padding: 15px;
+}
+
+i {color: cornsilk;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	text-align: center;
+	line-height: 2;
+	background: slategrey;
+}
+
+div {
+	width: 12em;
+	float: left;
+	margin-right: 2em;
+}
+
+hr {
+	clear: both;
+	padding-top: 1em;
+	border: 0;
+	border-bottom: 1px solid grey;
+}
+
+div:before {
+	font-family: monospace;
+	white-space: nowrap;
+	font-size: 12px;
+}
+
+
+/*  CSS NTH Child Pseudo Classes */
+
+.one ul li:nth-child(1),
+.one ol li:nth-child(1) {
+	background-color: aquamarine
+}
+
+.two ol li:nth-child(3) {
+	background-color: aquamarine
+}
+
+.three ul li:nth-child(odd),
+.three ul li:nth-child(2) {
+	background-color: aquamarine
+}
+
+
+/*  Sidebar */
+
+
+/*  Footer */
+
